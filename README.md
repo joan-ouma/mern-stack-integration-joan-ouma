@@ -62,15 +62,14 @@ npm install
 
 Create `server/.env`:
 ```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/mern-blog
-JWT_SECRET=your_secret_key_here
-NODE_ENV=development
+PORT=
+MONGODB_URI=
+JWT_SECRET=
 ```
 
 Create `client/.env`:
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=
 ```
 
 5. Start MongoDB (if running locally)
@@ -114,9 +113,6 @@ npm run dev
 - `GET /api/categories` - Get all categories
 - `POST /api/categories` - Create category (protected)
 
-## Screenshots
-
-[Add screenshots of your application here]
 
 ## Advanced Features Implemented
 
